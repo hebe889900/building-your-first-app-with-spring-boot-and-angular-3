@@ -4,11 +4,7 @@ import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-view-registration',
-  template: `
-    <p>
-      view-registration works!
-    </p>
-  `,
+  templateUrl: './view-registration.component.html',
   styleUrls: ['./view-registration.component.css']
 })
 export class ViewRegistrationComponent implements OnInit {
